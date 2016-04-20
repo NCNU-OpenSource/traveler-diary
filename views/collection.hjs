@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>行程集合頁面</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>使用者名稱:{{username}}</h1>
+    <h3>行程一欄</h3>
+
+    <ul>
+      <li>台灣遊</li>
+      <li>美國遊</li>
+      <li>暨大遊</li>
+    </ul>
+  </body>
+</html>

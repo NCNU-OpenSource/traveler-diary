@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{ title }}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../stylesheets/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <script type="text/javascript" src="../javascripts/jquery.js"></script>
+    <script type="text/javascript" src="../javascripts/blockUI.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+    </script>
+
+</head>
+
+<body>
+  <h1>註冊頁面</h1>
+<br><br><br><br><br><br>
+
+<div class="formContainer">
+    <form class="form-horizontal newsletterForm" role="form"
+            action="/process?form=newsletter" method="POST">
+        <input type="hidden" name="_csrf" value="{{csrf}}">
+        <div class="form-group">
+            <label for="fieldName" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control"
+                id="fieldName" name="name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="fieldEmail" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" required
+                    id="fieldEmail" name="email">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-4">
+                <button type="submit" class="btn btn-default">註冊</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/blockUI.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

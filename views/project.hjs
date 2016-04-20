@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>日記集合頁面</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>專案名稱:{{Project_name}}</h1>
+    <h3>日記一欄</h3>
+
+    <ul>
+      <li>台北遊</li>
+      <li>台中遊</li>
+      <li>水裡游</li>
+    <h4>{{diarys}}</h4>
+  </body>
+</html>

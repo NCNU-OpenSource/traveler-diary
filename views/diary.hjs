@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>日記內容</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+    <h3>日記名稱:{{diaryname}}</h3>
+
+    <h4>內容:{{content}}</h4>
+  </body>
+</html>
